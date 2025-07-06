@@ -50,7 +50,7 @@ export default function App() {
     };
 
     try {
-      const resp = await fetch('https://back-f2mcbg.fly.dev/predict', {
+      const resp = await fetch('https://back-delicate-cloud-7611.fly.dev/predict', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
