@@ -50,7 +50,7 @@ export default function App() {
     };
 
     try {
-      const resp = await fetch('https://back-rbpn.onrender.com:8000/predict', {
+      const resp = await fetch('https://back-f2mcbg.fly.dev//predict', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
